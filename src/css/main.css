@@ -1,0 +1,36 @@
+body {
+	font: 16px/1.4 Helvetica, serif;
+	background-color: #f0f0f0;
+}
+
+body, ul, h1, h2, h3, h4 {
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+$box-size: 50px;
+.chess-grid {
+	background-color: white;
+	overflow: hidden;
+	width: calc($box-size * 15);
+	margin: 30px auto;
+	.chess-box {
+		float: left;
+		width: $box-size;
+		height: $box-size;
+		line-height: $box-size;
+		text-align: center;
+		border: 1px solid #ccc;
+		&:hover {
+			background-color: #f0f0f0;
+		}
+	}
+}

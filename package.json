@@ -1,0 +1,34 @@
+{
+  "name": "vue-gobang",
+  "version": "0.0.0",
+  "description": "Gobang game made with Vue.",
+  "license": "MIT",
+  "repository": "egoist/vue-gobang",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "echo lol",
+    "start": "tooling watch",
+    "build": "tooling build"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "xo": {
+    "semicolon": false
+  },
+  "tooling": {
+    "index": {
+      "title": "Gobang <五子棋>"
+    }
+  }
+}
